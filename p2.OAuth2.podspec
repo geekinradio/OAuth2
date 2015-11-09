@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = "10.9"
   s.requires_arc = true
   
-  s.source_files = "OAuth2/*.swift", "SwiftKeychain/SwiftKeychain/Keychain/*.swift"
+  s.source_files = "OAuth2/*.swift", "SwiftKeychain/Keychain/*.swift"
   s.ios.source_files = "OAuth2+iOS/*.swift"
   s.osx.source_files = "OAuth2+OSX/*.swift"
 end
