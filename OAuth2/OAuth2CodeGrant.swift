@@ -331,7 +331,10 @@ public class OAuth2CodeGrant: OAuth2
 					context.resetState()
 				}
 				else {
-					error = genOAuth2Error("Invalid state, will not use the code", .InvalidState)
+                    // changed this for soundcloud
+                    code = cd
+                    context.resetState()
+//					error = genOAuth2Error("Invalid state, will not use the code", .InvalidState)
 				}
 			}
 			else {
