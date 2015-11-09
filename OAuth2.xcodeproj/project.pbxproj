@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6714474B1BF11FAC007F200E /* ArchiveKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671447431BF11FAC007F200E /* ArchiveKey.swift */; };
+		6714474C1BF11FAC007F200E /* ArchiveKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671447431BF11FAC007F200E /* ArchiveKey.swift */; };
+		6714474D1BF11FAC007F200E /* ArchiveKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671447431BF11FAC007F200E /* ArchiveKey.swift */; };
+		6714474E1BF11FAC007F200E /* GenericKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671447441BF11FAC007F200E /* GenericKey.swift */; };
+		6714474F1BF11FAC007F200E /* GenericKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671447441BF11FAC007F200E /* GenericKey.swift */; };
+		671447501BF11FAC007F200E /* GenericKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671447441BF11FAC007F200E /* GenericKey.swift */; };
+		671447511BF11FAC007F200E /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671447451BF11FAC007F200E /* Keychain.swift */; };
+		671447521BF11FAC007F200E /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671447451BF11FAC007F200E /* Keychain.swift */; };
+		671447531BF11FAC007F200E /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671447451BF11FAC007F200E /* Keychain.swift */; };
+		671447541BF11FAC007F200E /* KeychainItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671447461BF11FAC007F200E /* KeychainItem.swift */; };
+		671447551BF11FAC007F200E /* KeychainItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671447461BF11FAC007F200E /* KeychainItem.swift */; };
+		671447561BF11FAC007F200E /* KeychainItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671447461BF11FAC007F200E /* KeychainItem.swift */; };
+		671447571BF11FAC007F200E /* KeychainQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671447471BF11FAC007F200E /* KeychainQuery.swift */; };
+		671447581BF11FAC007F200E /* KeychainQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671447471BF11FAC007F200E /* KeychainQuery.swift */; };
+		671447591BF11FAC007F200E /* KeychainQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671447471BF11FAC007F200E /* KeychainQuery.swift */; };
+		6714475A1BF11FAC007F200E /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671447481BF11FAC007F200E /* KeychainService.swift */; };
+		6714475B1BF11FAC007F200E /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671447481BF11FAC007F200E /* KeychainService.swift */; };
+		6714475C1BF11FAC007F200E /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671447481BF11FAC007F200E /* KeychainService.swift */; };
 		EA9758181B222CEA007744B1 /* OAuth2PasswordGrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9758171B222CEA007744B1 /* OAuth2PasswordGrant.swift */; };
 		EA97581D1B223A5D007744B1 /* OAuth2PasswordGrant_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA97581B1B223932007744B1 /* OAuth2PasswordGrant_Tests.swift */; };
 		EA97581E1B2242F9007744B1 /* OAuth2PasswordGrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9758171B222CEA007744B1 /* OAuth2PasswordGrant.swift */; };
@@ -35,18 +53,6 @@
 		EEBA36AC1A8D030F00CF4230 /* OAuth2ImplicitGrant_tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBA36AB1A8D030F00CF4230 /* OAuth2ImplicitGrant_tests.swift */; };
 		EEC7A8C71AE46C33008C30E7 /* OAuth2+OSX.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC7A8C61AE46C33008C30E7 /* OAuth2+OSX.swift */; };
 		EEC7A8C91AE47111008C30E7 /* OAuth2+iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC7A8C81AE47111008C30E7 /* OAuth2+iOS.swift */; };
-		EEC7A8D41AE4851E008C30E7 /* ArchiveKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC7A8CE1AE4851E008C30E7 /* ArchiveKey.swift */; };
-		EEC7A8D51AE4851E008C30E7 /* ArchiveKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC7A8CE1AE4851E008C30E7 /* ArchiveKey.swift */; };
-		EEC7A8D61AE4851E008C30E7 /* GenericKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC7A8CF1AE4851E008C30E7 /* GenericKey.swift */; };
-		EEC7A8D71AE4851E008C30E7 /* GenericKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC7A8CF1AE4851E008C30E7 /* GenericKey.swift */; };
-		EEC7A8D81AE4851E008C30E7 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC7A8D01AE4851E008C30E7 /* Keychain.swift */; };
-		EEC7A8D91AE4851E008C30E7 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC7A8D01AE4851E008C30E7 /* Keychain.swift */; };
-		EEC7A8DA1AE4851E008C30E7 /* KeychainItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC7A8D11AE4851E008C30E7 /* KeychainItem.swift */; };
-		EEC7A8DB1AE4851E008C30E7 /* KeychainItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC7A8D11AE4851E008C30E7 /* KeychainItem.swift */; };
-		EEC7A8DC1AE4851E008C30E7 /* KeychainQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC7A8D21AE4851E008C30E7 /* KeychainQuery.swift */; };
-		EEC7A8DD1AE4851E008C30E7 /* KeychainQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC7A8D21AE4851E008C30E7 /* KeychainQuery.swift */; };
-		EEC7A8DE1AE4851E008C30E7 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC7A8D31AE4851E008C30E7 /* KeychainService.swift */; };
-		EEC7A8DF1AE4851E008C30E7 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC7A8D31AE4851E008C30E7 /* KeychainService.swift */; };
 		EEDB862A193FAAE500C4EEA1 /* OAuth2.h in Headers */ = {isa = PBXBuildFile; fileRef = EEDB8629193FAAE500C4EEA1 /* OAuth2.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EEE209A719427DFE00736F1A /* OAuth2_tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE209A619427DFE00736F1A /* OAuth2_tests.swift */; };
 		EEE209A819427DFE00736F1A /* OAuth2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE209471942772800736F1A /* OAuth2.framework */; };
@@ -100,6 +106,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		671447431BF11FAC007F200E /* ArchiveKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArchiveKey.swift; sourceTree = "<group>"; };
+		671447441BF11FAC007F200E /* GenericKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericKey.swift; sourceTree = "<group>"; };
+		671447451BF11FAC007F200E /* Keychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		671447461BF11FAC007F200E /* KeychainItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainItem.swift; sourceTree = "<group>"; };
+		671447471BF11FAC007F200E /* KeychainQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainQuery.swift; sourceTree = "<group>"; };
+		671447481BF11FAC007F200E /* KeychainService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
 		EA9758171B222CEA007744B1 /* OAuth2PasswordGrant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuth2PasswordGrant.swift; sourceTree = "<group>"; };
 		EA97581B1B223932007744B1 /* OAuth2PasswordGrant_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuth2PasswordGrant_Tests.swift; sourceTree = "<group>"; };
 		EE1391D91AC5B41A002C7B18 /* OAuth2CodeGrantBasicAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuth2CodeGrantBasicAuth.swift; sourceTree = "<group>"; };
@@ -118,13 +130,6 @@
 		EEBA36AB1A8D030F00CF4230 /* OAuth2ImplicitGrant_tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuth2ImplicitGrant_tests.swift; sourceTree = "<group>"; };
 		EEC7A8C61AE46C33008C30E7 /* OAuth2+OSX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "OAuth2+OSX.swift"; sourceTree = "<group>"; };
 		EEC7A8C81AE47111008C30E7 /* OAuth2+iOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "OAuth2+iOS.swift"; sourceTree = "<group>"; };
-		EEC7A8CE1AE4851E008C30E7 /* ArchiveKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArchiveKey.swift; sourceTree = "<group>"; };
-		EEC7A8CF1AE4851E008C30E7 /* GenericKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericKey.swift; sourceTree = "<group>"; };
-		EEC7A8D01AE4851E008C30E7 /* Keychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
-		EEC7A8D11AE4851E008C30E7 /* KeychainItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainItem.swift; sourceTree = "<group>"; };
-		EEC7A8D21AE4851E008C30E7 /* KeychainQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainQuery.swift; sourceTree = "<group>"; };
-		EEC7A8D31AE4851E008C30E7 /* KeychainService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
-		EEC7A8E01AE48533008C30E7 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE.txt; path = ../../LICENSE.txt; sourceTree = "<group>"; };
 		EEDB8624193FAAE500C4EEA1 /* OAuth2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OAuth2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEDB8629193FAAE500C4EEA1 /* OAuth2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OAuth2.h; sourceTree = "<group>"; };
 		EEDB8640193FAB9200C4EEA1 /* OAuth2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuth2.swift; sourceTree = "<group>"; };
@@ -163,6 +168,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		671447491BF11FAC007F200E /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				671447431BF11FAC007F200E /* ArchiveKey.swift */,
+				671447441BF11FAC007F200E /* GenericKey.swift */,
+				671447451BF11FAC007F200E /* Keychain.swift */,
+				671447461BF11FAC007F200E /* KeychainItem.swift */,
+				671447471BF11FAC007F200E /* KeychainQuery.swift */,
+				671447481BF11FAC007F200E /* KeychainService.swift */,
+			);
+			path = Keychain;
+			sourceTree = "<group>";
+		};
+		6714474A1BF11FAC007F200E /* SwiftKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				671447491BF11FAC007F200E /* Keychain */,
+			);
+			path = SwiftKeychain;
+			sourceTree = "<group>";
+		};
 		EE2486281AC85DD4002B31AF /* OAuth2+iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,31 +206,16 @@
 			path = "OAuth2+OSX";
 			sourceTree = "<group>";
 		};
-		EEC7A8CD1AE4851E008C30E7 /* SwiftKeychain */ = {
-			isa = PBXGroup;
-			children = (
-				EEC7A8E01AE48533008C30E7 /* LICENSE.txt */,
-				EEC7A8CE1AE4851E008C30E7 /* ArchiveKey.swift */,
-				EEC7A8CF1AE4851E008C30E7 /* GenericKey.swift */,
-				EEC7A8D01AE4851E008C30E7 /* Keychain.swift */,
-				EEC7A8D11AE4851E008C30E7 /* KeychainItem.swift */,
-				EEC7A8D21AE4851E008C30E7 /* KeychainQuery.swift */,
-				EEC7A8D31AE4851E008C30E7 /* KeychainService.swift */,
-			);
-			name = SwiftKeychain;
-			path = SwiftKeychain/SwiftKeychain/Keychain;
-			sourceTree = "<group>";
-		};
 		EEDB861A193FAAE500C4EEA1 = {
 			isa = PBXGroup;
 			children = (
+				6714474A1BF11FAC007F200E /* SwiftKeychain */,
 				EE29EABE195B0813008882C8 /* README.md */,
 				EE8EE6DA1B12AB35005B90C5 /* CHANGELOG.md */,
 				EE450CD31AD57578008AB6FC /* p2.OAuth2.podspec */,
 				EEDB8626193FAAE500C4EEA1 /* OAuth2 */,
 				EE2486281AC85DD4002B31AF /* OAuth2+iOS */,
 				EEC7A8C51AE46C33008C30E7 /* OAuth2+OSX */,
-				EEC7A8CD1AE4851E008C30E7 /* SwiftKeychain */,
 				EEE209A319427DFE00736F1A /* OAuth2 Tests */,
 				EEDB8625193FAAE500C4EEA1 /* Products */,
 			);
@@ -423,20 +434,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEACE1DD1A7E8DF7009BF3A7 /* extensions.swift in Sources */,
-				EEC7A8D91AE4851E008C30E7 /* Keychain.swift in Sources */,
-				EEC7A8DB1AE4851E008C30E7 /* KeychainItem.swift in Sources */,
-				EEC7A8DD1AE4851E008C30E7 /* KeychainQuery.swift in Sources */,
-				EEC7A8DF1AE4851E008C30E7 /* KeychainService.swift in Sources */,
-				EEC7A8D71AE4851E008C30E7 /* GenericKey.swift in Sources */,
-				EEC7A8D51AE4851E008C30E7 /* ArchiveKey.swift in Sources */,
 				EEF47D2C1B1E3FDD0057D838 /* OAuth2Base.swift in Sources */,
 				EEACE1D51A7E8DE8009BF3A7 /* OAuth2.swift in Sources */,
+				6714474F1BF11FAC007F200E /* GenericKey.swift in Sources */,
 				EEC7A8C91AE47111008C30E7 /* OAuth2+iOS.swift in Sources */,
+				671447521BF11FAC007F200E /* Keychain.swift in Sources */,
+				6714474C1BF11FAC007F200E /* ArchiveKey.swift in Sources */,
+				671447551BF11FAC007F200E /* KeychainItem.swift in Sources */,
 				EEACE1DB1A7E8DF1009BF3A7 /* OAuth2Request.swift in Sources */,
 				EA97581E1B2242F9007744B1 /* OAuth2PasswordGrant.swift in Sources */,
 				EEACE1D71A7E8DEB009BF3A7 /* OAuth2ImplicitGrant.swift in Sources */,
 				EE5F4F871B19114D00DB38B3 /* OAuth2ClientCredentials.swift in Sources */,
+				671447581BF11FAC007F200E /* KeychainQuery.swift in Sources */,
 				EEACE1D91A7E8DEE009BF3A7 /* OAuth2CodeGrant.swift in Sources */,
+				6714475B1BF11FAC007F200E /* KeychainService.swift in Sources */,
 				EEACE1E01A7E8FC5009BF3A7 /* OAuth2CodeGrantFacebook.swift in Sources */,
 				EE1391DB1AC5B41A002C7B18 /* OAuth2CodeGrantBasicAuth.swift in Sources */,
 				EE507A391B1E15E000AE02E9 /* OAuth2DynReg.swift in Sources */,
@@ -449,23 +460,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEACE1DC1A7E8DF6009BF3A7 /* extensions.swift in Sources */,
-				EEC7A8D81AE4851E008C30E7 /* Keychain.swift in Sources */,
-				EEC7A8DE1AE4851E008C30E7 /* KeychainService.swift in Sources */,
-				EEC7A8DC1AE4851E008C30E7 /* KeychainQuery.swift in Sources */,
-				EEC7A8DA1AE4851E008C30E7 /* KeychainItem.swift in Sources */,
-				EEC7A8D61AE4851E008C30E7 /* GenericKey.swift in Sources */,
-				EEC7A8D41AE4851E008C30E7 /* ArchiveKey.swift in Sources */,
 				EEF47D2B1B1E3FDD0057D838 /* OAuth2Base.swift in Sources */,
 				EEACE1D41A7E8DE8009BF3A7 /* OAuth2.swift in Sources */,
 				EEC7A8C71AE46C33008C30E7 /* OAuth2+OSX.swift in Sources */,
+				6714474B1BF11FAC007F200E /* ArchiveKey.swift in Sources */,
+				6714475A1BF11FAC007F200E /* KeychainService.swift in Sources */,
 				EEACE1DA1A7E8DF1009BF3A7 /* OAuth2Request.swift in Sources */,
 				EE5F4F861B19114D00DB38B3 /* OAuth2ClientCredentials.swift in Sources */,
 				EEACE1D61A7E8DEB009BF3A7 /* OAuth2ImplicitGrant.swift in Sources */,
+				671447571BF11FAC007F200E /* KeychainQuery.swift in Sources */,
+				671447541BF11FAC007F200E /* KeychainItem.swift in Sources */,
 				EEACE1D81A7E8DEE009BF3A7 /* OAuth2CodeGrant.swift in Sources */,
+				6714474E1BF11FAC007F200E /* GenericKey.swift in Sources */,
 				EEACE1DF1A7E8FC1009BF3A7 /* OAuth2CodeGrantFacebook.swift in Sources */,
 				EE1391DA1AC5B41A002C7B18 /* OAuth2CodeGrantBasicAuth.swift in Sources */,
 				EA9758181B222CEA007744B1 /* OAuth2PasswordGrant.swift in Sources */,
 				EE507A381B1E15E000AE02E9 /* OAuth2DynReg.swift in Sources */,
+				671447511BF11FAC007F200E /* Keychain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,11 +484,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				671447591BF11FAC007F200E /* KeychainQuery.swift in Sources */,
 				EE5F4F891B1913D400DB38B3 /* OAuth2ClientCredentials_tests.swift in Sources */,
 				EE43B15F1952E4700017679A /* OAuth2CodeGrant_tests.swift in Sources */,
+				671447501BF11FAC007F200E /* GenericKey.swift in Sources */,
+				6714475C1BF11FAC007F200E /* KeychainService.swift in Sources */,
+				6714474D1BF11FAC007F200E /* ArchiveKey.swift in Sources */,
 				EEBA36AC1A8D030F00CF4230 /* OAuth2ImplicitGrant_tests.swift in Sources */,
+				671447531BF11FAC007F200E /* Keychain.swift in Sources */,
 				EA97581D1B223A5D007744B1 /* OAuth2PasswordGrant_Tests.swift in Sources */,
 				EEE209A719427DFE00736F1A /* OAuth2_tests.swift in Sources */,
+				671447561BF11FAC007F200E /* KeychainItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
